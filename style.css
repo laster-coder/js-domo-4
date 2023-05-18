@@ -1,0 +1,109 @@
+#bagua-wrapper{
+    background-color: #eeee;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#bagua{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.75);
+    position: relative;
+    overflow: hidden;
+}
+#bagua>div:nth-child(1){
+    width: 200px;
+    height: 400px;
+    background-color: black;
+    position:absolute;
+}
+#bagua>div:nth-child(2){
+    width: 200px;
+    height: 200px;
+    background-color:black;
+    border-radius: 50%;
+    position:absolute;
+    left: 50%;
+    margin-left: -100px;
+}
+#bagua>div:nth-child(3){
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position:absolute;
+    left: 50%;
+    top:75px;
+}
+#bagua>div:nth-child(4){
+    width: 200px;
+    height: 200px;
+    background-color:white;
+    border-radius: 50%;
+    position:absolute;
+    left: 50%;
+    margin-left: -100px;
+    bottom:0;
+}
+#bagua>div:nth-child(5){
+    width: 50px;
+    height: 50px;
+    background-color:black;
+    border-radius: 50%;
+    position:absolute;
+    right: 50%;
+    margin-left: 170px;
+    bottom:75px;
+}
+#gongneng{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#xuanzhuan{
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75);
+    border-radius: 30px;
+    border:1px solid black;
+    position:absolute;
+    width: 5em;
+    height:2em;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#pingyi-right{
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75);
+    border-radius: 30px;
+    border:1px solid black;
+    position:absolute;
+    margin-left: 200px;
+    width: 5em;
+    height:2em;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#pingyi-left{
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75);
+    border-radius: 30px;
+    border:1px solid black;
+    position:absolute;
+    margin-right: 200px;
+    width: 5em;
+    height:2em;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
