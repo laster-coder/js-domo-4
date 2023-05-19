@@ -27,9 +27,9 @@ xuanzhuan.onclick = function () {
 };
 
 pingyiandright.onclick = function () {
-	bagua.style.left = 100 + "px";
+	bagua.style.left = Number(bagua.style.left.replace(/px/, "")) + 100 + "px";
 };
 
 pingyiandleft.onclick = function () {
-	bagua.style.right = 100 + "px";
+	bagua.style.left = Number(bagua.style.left.replace(/px/, "")) - 100 + "px";
 };
